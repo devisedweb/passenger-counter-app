@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./station.jpg);
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+#value-el {
+  font-size: 50px;
+}
+
+button {
+  padding: 10px 50px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+#count-el {
+  background-color: red;
+}
+
+#save-el {
+  background-color: green;
+}
